@@ -4,7 +4,7 @@ import {PrincipalContainer, TextButton } from './styles'
 
 const PrincipalButton = () => {
     return(
-        <PrincipalContainer><TextButton>Registro</TextButton></PrincipalContainer>
+        <PrincipalContainer><TextButton>Send</TextButton></PrincipalContainer>
     )
 }
 
