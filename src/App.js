@@ -4,7 +4,9 @@ import PrincipalButton from './principalButton'
 import SendButton from './sendButton'
 import User from './user'
 import Navbar from './navBar'
-import { IconContext } from "react-icons";
+
+import UserDashboard from './userDasboard'
+import PrincipalPage from './principalPage'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <SendButton/>
         <User/>
         <Navbar/>
+        <UserDashboard/>
+        <PrincipalPage/>
      </>
   );
 }
