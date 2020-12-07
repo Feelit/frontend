@@ -6,8 +6,7 @@ export const PrincipalContainer = styled.button`
     height: 25px;    
     border-radius: 10px;
     color: white;
-    border: 0;
-    width:100%
+    border: 0;   
 `
 
 export const TextButton = styled.p`

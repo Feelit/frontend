@@ -7,6 +7,7 @@ import Navbar from './navBar'
 
 import UserDashboard from './userDasboard'
 import PrincipalPage from './principalPage'
+import UploadImage from './UploadImage'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Navbar/>
         <UserDashboard/>
         <PrincipalPage/>
+        <UploadImage/>
      </>
   );
 }

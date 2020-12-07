@@ -2,9 +2,9 @@ import React from 'react'
 
 import {PrincipalContainer, TextButton } from './styles'
 
-const PrincipalButton = () => {
+const PrincipalButton = (props) => {
     return(
-        <PrincipalContainer><TextButton>Registro</TextButton></PrincipalContainer>
+        <PrincipalContainer><TextButton>{props.children || "Register"}</TextButton></PrincipalContainer>
     )
 }
 
